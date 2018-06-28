@@ -18,13 +18,13 @@
   version = "v0.23.0"
 
 [[projects]]
+  branch = "latest"
   name = "github.com/Azure/azure-sdk-for-go"
   packages = [
     "storage",
     "version"
   ]
-  revision = "cd93ccfe0395e70031704ca68f14606588eec120"
-  version = "v17.3.0"
+  revision = "2dc26e01914c8cbb383e1895c779704877365792"
 
 [[projects]]
   name = "github.com/Azure/go-autorest"
@@ -34,8 +34,8 @@
     "autorest/azure",
     "autorest/date"
   ]
-  revision = "f04d503958a4fe854c1b41667c73f8813c9dd9c3"
-  version = "v10.11.2"
+  revision = "e6d2a85bbb5cd2a3162e4942594e1e520e442b0b"
+  version = "v10.11.4"
 
 [[projects]]
   branch = "master"
@@ -485,6 +485,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c1378c5fc821e27711155958ff64b3c74b56818ba4733dbfe0c86d518c32880e"
+  inputs-digest = "8b45c9611c65070bd83b773ac48acbb475031336064884d2418f9869253cb996"
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -9,3 +9,8 @@
 [[override]]
   branch = "master"
   name = "github.com/coreos/bbolt"
+
+# can likely remove for 1.43
+[[override]]
+  branch = "latest"
+  name = "github.com/Azure/azure-sdk-for-go"
